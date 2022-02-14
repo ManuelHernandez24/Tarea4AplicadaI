@@ -1,0 +1,29 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio1"
+        mc:Ignorable="d"
+        Title="Potencia" Height="500" Width="300">
+    <Grid>
+        
+        <StackPanel Margin = "15" Orientation = "Vertical">
+            <TextBlock Text = "Cadena 1: " FontSize = "24"/>
+            <TextBox Name = "TextBoxNotaCadena1"  FontSize = "24"/>
+
+            <TextBlock Text = "Cadena 2: " FontSize = "24"/>
+            <TextBox Name = "TextBoxNotaCadena2"  FontSize = "24"/>
+
+            <TextBlock Text = "Cadena 1: " FontSize = "24"/>
+            <TextBox Name = "TextBoxNotaCadena3"  FontSize = "24" IsReadOnly = "True"/>
+
+            <TextBlock Text = "Cadena 2: " FontSize = "24"/>
+            <TextBox Name = "TextBoxNotaCadena4"  FontSize = "24" IsReadOnly = "True" />
+
+		    <Button Content = "Ordenar" FontSize = "24" Click = "OrdenarButton_Click"/>
+        
+	</StackPanel>
+    </Grid>
+</Window>
+
